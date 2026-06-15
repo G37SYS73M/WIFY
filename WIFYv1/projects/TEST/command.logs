@@ -1,0 +1,61 @@
+----------------------------------------------------------------------
+14-06-26-01_45 - Monitor Mode
+
+[32m [*] wlan0 is now in Monitor Mode[0m
+----------------------------------------------------------------------
+14-06-26-01_45 - Scan For Networks (5min)
+./scripts/scanForNetworks.sh wlan0 5
+Command Output
+
+[32m[*] SCAN RESULTS:[0m
+BSSID                     PWR     CH     Privacy         Cipher              ESSID
+----------------------------------------------------------------------
+14-06-26-01_51 - Monitor Mode
+
+[32m [*] wlan0 is now in Monitor Mode[0m
+----------------------------------------------------------------------
+14-06-26-01_52 - Scan For Networks (2min)
+./scripts/scanForNetworks.sh wlan0 2
+Command Output
+
+[32m[*] SCAN RESULTS:[0m
+BSSID                     PWR     CH     Privacy         Cipher              ESSID
+72:91:E3:BA:DE:76	 -20	 48	 WPA2		 CCMP		 
+30:B6:2D:93:68:F0	 -76	 40	 WPA2		 CCMP		 JioPrivateNet
+30:B6:2D:91:32:D0	 -75	 44	 WPA2		 CCMP		 JioPrivateNet
+50:91:E3:BA:DE:76	 -20	 48	 WPA2		 CCMP		 OVERLORD
+00:72:63:94:4C:DC	 -28	  1	 WPA2		 CCMP TKIP		 netis_944CDC
+E2:37:BF:03:A2:DF	 -59	  1	 WPA2		 CCMP		 DIRECT-cm-BRAVIA
+10:10:81:E7:15:DA	 -48	  1	 WPA2		 CCMP TKIP		 Swapnil_5g
+72:91:E3:BA:DE:77	 -46	  4	 WPA2		 CCMP		 
+50:91:E3:BA:DE:77	 -46	  4	 WPA2		 CCMP		 OVERLORD
+12:10:81:D7:15:DA	 -50	  1	 WPA2		 CCMP TKIP		 Swapnil_5g
+92:91:E3:BA:DE:77	 -46	  4	 WPA2		 CCMP		 
+92:A9:15:2C:9F:70	 -54	 11	 WPA2		 CCMP		 technomedia
+34:0A:33:F2:40:06	 -52	 13	 WPA2		 CCMP		 Sinet
+30:B6:2D:91:32:C0	 -74	 -1	 		 		 
+8C:A3:99:3F:14:1E	 -78	  1	 WPA		 		 
+30:B6:2D:93:67:40	 -53	  1	 WPA2		 CCMP		 JioPrivateNet
+30:B6:2D:93:68:E0	 -54	  6	 WPA2		 CCMP		 JioPrivateNet
+00:67:62:A9:B1:4B	 -78	  8	 WPA		 		 
+FC:9F:2A:22:9B:87	 -73	  6	 WPA		 		 
+							
+----------------------------------------------------------------------
+14-06-26-02_02 - Scan AP 10:10:81:E7:15:DA
+./scripts/scanNetwork.sh wlan0 10:10:81:E7:15:DA 1 2
+Command Output
+[*] ESSID of the AP:
+ Swapnil_5g
+[*] BSSID of the AP:
+10:10:81:E7:15:DA
+[*] Channel Number of the AP:
+  1
+[*] Encryption used by the AP:
+ WPA2
+[*] Cipher used by the AP:
+ CCMP TKIP
+[*] Authentication used by the AP:
+ PSK
+[*] Number of Stations Connected to the AP:
+0
+[*] MAC Addresses of Stations Connected to AP:

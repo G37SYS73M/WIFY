@@ -1,0 +1,15 @@
+[*] ESSID of the AP:
+ Swapnil_5g
+[*] BSSID of the AP:
+10:10:81:E7:15:DA
+[*] Channel Number of the AP:
+  1
+[*] Encryption used by the AP:
+ WPA2
+[*] Cipher used by the AP:
+ CCMP TKIP
+[*] Authentication used by the AP:
+ PSK
+[*] Number of Stations Connected to the AP:
+0
+[*] MAC Addresses of Stations Connected to AP:

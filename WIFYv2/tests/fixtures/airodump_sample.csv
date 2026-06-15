@@ -1,0 +1,8 @@
+BSSID, First time seen, Last time seen, channel, Speed, Privacy, Cipher, Authentication, Power, # beacons, # IV, LAN IP, ID-length, ESSID, Key
+72:91:E3:BA:DE:76, 2026-06-14 01:52:01, 2026-06-14 01:53:48,  48,  54, WPA2, CCMP,   , -20,       10,        0,   0.0.0.0,    0,    ,
+30:B6:2D:93:68:F0, 2026-06-14 01:52:02, 2026-06-14 01:53:48,  40,  54, WPA2, CCMP, PSK, -76,       12,        0,   0.0.0.0,   13, JioPrivateNet,
+10:10:81:E7:15:DA, 2026-06-14 01:52:03, 2026-06-14 01:53:48,   1,  54, WPA2, CCMP TKIP, PSK, -48,       15,        0,   0.0.0.0,   10, Swapnil_5g,
+
+Station MAC, First time seen, Last time seen, Power, # packets, BSSID, Probed ESSIDs
+DE:AD:BE:EF:00:01, 2026-06-14 01:52:30, 2026-06-14 01:53:40,  -45,       20, 10:10:81:E7:15:DA, Swapnil_5g
+DE:AD:BE:EF:00:02, 2026-06-14 01:52:31, 2026-06-14 01:53:41,  -50,        5, 10:10:81:E7:15:DA,
